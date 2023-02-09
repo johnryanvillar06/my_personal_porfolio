@@ -4,3 +4,20 @@
   font-size: 25px;
   margin: 0px;
 }
+.navbar {
+  box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    width: 30px;
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.nav-link:hover {
+    color: #e5345b;
+}
+.nav-item {
+    border-bottom: 0.5px solid rgba(0,0,0,0.05);
+}

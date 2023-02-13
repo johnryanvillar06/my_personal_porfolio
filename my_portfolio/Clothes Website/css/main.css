@@ -6,6 +6,10 @@
     --gray: gray; 
     
 }
+
+#search{
+display: none;
+}
 body{
     font-family: var(--sm-font);
 }
@@ -113,26 +117,26 @@ carousel-inner h1 {
 }
 
 
-/*  newsletter*/
-#newsletter {
+/*  search bar*/
+#searchbar {
     background-color: rgba(179, 179, 179, 0.05);
 }
-#newsletter p{
+#searchbar p{
     max-width: 600px;
 }
-#newsletter .input-group{
+#searchbar .input-group{
     max-width: 500px;
 }
-#newsletter .form-control {
+#searchbar .form-control {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
-#newsletter .btn {
+#searchbar .btn {
     background-color: var(--pink);
     color: #fff;
     border-color: var(--pink);
 }
-#newsletter .btn:hover {
+#searchbar .btn:hover {
     background-color: #000;
     border-color: #000;
 }

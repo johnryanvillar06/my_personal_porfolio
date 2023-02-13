@@ -2,7 +2,9 @@
 :root{
     --lg-font: 'Kaisei Tokumin', serif;  
     --sm-font: 'Poppins' ,  sans-serif;
-    --pink: #e5345b;  
+    --pink: #e5345b; 
+    --gray: gray; 
+    
 }
 body{
     font-family: var(--sm-font);
@@ -17,13 +19,13 @@ body{
 }
 
 .btn:not(.nav-btns button):hover{
-    background-color: var(--pink);
+    background-color: gray;
     color: #fff;
-    border-color: var(--pink);
+    border-color: gray;
 }
 /* text color*/
 .text-primary {
-    color: var(--pink)!important;
+    color: gray;
 }
 .navbar {
     box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
@@ -36,14 +38,15 @@ body{
     font-family: var(--lg-font);
 }
 .nav-link:hover {
-    color: var(--pink)!important;
+    color: var(--gray)!important;
 }
 .nav-item {
     border-bottom: 0.5px solid rgba(0,0,0,0.05);
 }
 /* header*/
 #header {
-    background: url("/my_portfolio/images/portrait-nice-attractive.jpg") top/cover no-repeat;
+    
+    background: url("/my_portfolio/myPorfolio/portrait-nice-attractive.jpg") top/cover no-repeat;
 }
 carousel-inner h1 {
     font-size: 60px;
@@ -149,7 +152,7 @@ footer a:hover {
 
 /*  offers*/
 #offers {
-    background: url(/my_portfolio/images/blogs-shopping-woman.JPG) top/cover no-repeat;
+    background: url(/my_portfolio/myPorfolio/blogs-shopping-woman.JPG) top/cover no-repeat;
 }
 #offers .row {
     min-height: 60vh;

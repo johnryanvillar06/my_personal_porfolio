@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+h6 {
+    font-family: 'Kaisei Tokumin', serif;
+    
+}
 
 /*navbar*/
 .navbar-brand{

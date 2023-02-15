@@ -77,3 +77,13 @@ h6 {
     border-radius: 60px;
 
 }
+.btn1:hover {
+    background-color: rgb(248, 26, 92);
+    transition: 0.5s;
+}
+.card:hover {
+    box-shadow: 0px 5px 24px 1px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 0px 5px 24px 1px rgba(0,0,0,0.71);
+    -moz-box-shadow: 0px 5px 24px 1px rgba(0,0,0,0.71); 
+    transform: 0.5s;
+}

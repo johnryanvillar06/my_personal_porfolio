@@ -6,7 +6,16 @@
     --gray: gray; 
     
 }
+.btn1{  /* fixing search botton*/
+    margin:  8px;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    
 
+}
+.btn1:hover {
+    color: rgb(0, 0, 0);
+}
 #searchbar{
 display: none;
 }

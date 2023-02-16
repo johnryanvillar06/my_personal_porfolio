@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Efoods service</title>
     <link rel="stylesheet" href="food.css">
     <link rel="stylesheet" href="/my_portfolio/Clothes Website/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Pacifico&family=Rubik:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
@@ -15,26 +16,27 @@
     <!-- navbar-->
     <nav class="navbar navbar-expand-lg">
         <div class="container my-2">
-          <a class="navbar-brand" href="#">eFood</a>
+          <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="#home">
+            <img src="/my_portfolio/Food_Images/restaurant.png" alt="">
+            <span class="text-uppercase fw-lighter ms-2">eFood</span>
+          </a>
+         
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav m-auto my-2 my-lg-0 text-center">
               <li class="nav-item">
-                <a class="nav-link active"  href="#">Home</a>
+                <a class="nav-link active" active href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">trending</a>
+                <a class="nav-link" href="#trending">trending</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Store</a>
+                <a class="nav-link" href="#store">Store</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">efood</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
+                <a class="nav-link" href="#footers">contact</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -49,7 +51,7 @@
     <!-- section -->
 
     <!-- section -->
-      <section class="main py-5">
+      <section class="main py-5" id="home">
         <div class="container py-5 mt-5">
             <div class="row py-4 justify-content-center">
                <div class="col-lg-7 pt-5 text-center m-5">
@@ -89,7 +91,7 @@
     <!-- end of menu-->
 
     <!-- Trending -->
-    <section class="product">
+    <section class="product" id="trending">
         <div class="container">
             <div class="row ">
                 <div class="col-lg-5 m-auto text-center">
@@ -147,8 +149,8 @@
     </section>
     <!-- End of Trending -->
 
-    <!-- about  -->
-      <section class="about ">
+    <!-- cuisine  -->
+      <section class="store" id="store">
         <div class="container py-2">
           <div class="row  py-5">
             <div class="col-lg-8 m-auto text-center">
@@ -187,6 +189,122 @@
       </div>
       </section>
     <!-- End of about -->
+
+    <!-- End of store -->
+    <section id="location" class="py-3">
+      <div class="container bg-light">
+        <div class="row">
+          <div class="col-lg-6 order-lg-1 py-5">
+            <div class="title pt-2 pb-5">
+              <h2 class="position-relative">Our Location</h2>
+          </div>
+          <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Eaque, saepe?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Consequuntur quidem doloribus architecto minima provident, 
+             blanditiis eum harum distinctio, saepe incidunt fugiat placeat sint ad, 
+             vero quaerat praesentium excepturi ex labore.
+          </p>          
+          </div>
+          <div class="col-lg-6 py-5">
+            <img src="/my_portfolio/Food_Images/locate.JPG" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of store -->
+
+    <footer class="py-2 mt-5"  id="footers">
+      <div class="container py-3">
+          <div class="row text-black g-4 py-3 ">
+              <div class="col-md-6 col-lg-3 ">
+                  <a class="text-uppercase text-decoration-none brand text-black"
+                   href="/my_portfolio/Food Website/eFood.html" style="font-family: 'Pacifico', cursive;">eFood</a>
+                   <p class="text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, deserunt. Consequatur itaque delectus amet velit.</p>
+              </div>
+              <div class="col-md-6 col-lg-3" style="font-family: 'Kaisei Tokumin', serif;">
+                  <h5 class="fw-light">Links</h5>
+                  <ul class="list-unstyled ">
+                      <li class="my-3">
+                          <a href="#" class="text-white text-decoration-none 
+                          text-muted"><i class="fas fa-chevron-right me-1"> Home</i></a>
+                      </li>
+                      <li class="my-3">
+                          <a href="#" class="text-white text-decoration-none 
+                          text-muted"><i class="fas fa-chevron-right me-1"> Trending</i></a>
+                      </li>
+                      <li class="my-3">
+                          <a href="#" class="text-white text-decoration-none 
+                          text-muted"><i class="fas fa-chevron-right me-1"> Store</i></a>
+                      </li>
+                      <li class="my-3">
+                          <a href="#" class="text-white text-decoration-none 
+                          text-muted"><i class="fas fa-chevron-right me-1"> Contact</i></a>
+                      </li> 
+                  </ul>
+              </div>
+
+              <div class="col-md-6 col-lg-3">
+                  <h5 class="fw-light mb-3">Contact Us</h5>
+                  <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                      <span class="me-3"><i class="fas fa-map-marked-alt"></i></span>
+                      <span class="fw-light">
+                      
+                          Block 24 Sitio Lambak Floodway Taytay, Rizal
+                      
+                      </span>
+                  </div>
+
+                  <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                      <span class="me-3"><i class="fas fa-envelope"></i></span>
+                      <span class="fw-light">
+                          Johnryanvillar06@gmail.com
+                      
+                      </span>
+                  </div>
+
+                  <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                      <span class="me-3"><i class="fas fa-phone-alt"></i>
+                      </span>
+                      <span class="fw-light">
+                          09281563051
+                    
+                      </span>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <h5 class="fw-light mb-3">Follow Us</h5>
+                  <div>
+                      <ul class="list-unstyled d-flex">
+                          <li>
+                              <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4 ">
+                                  <i class="fab fa-facebook-f "></i>
+                              </a>
+                          </li>
+
+                          <li>
+                              <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                  <i class="fab fa-twitter "></i>
+                              </a>
+                          </li>
+
+                          <li>
+                              <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                  <i class="fab fa-instagram "></i>
+                              </a>
+                          </li>
+
+                          <li>
+                              <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                  <i class="fab fa-tiktok "></i>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
 
    <script src="/my_portfolio/Clothes Website/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
   </body>

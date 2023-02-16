@@ -29,6 +29,9 @@ h6 {
     color:black;
 
 }
+.navbar-brand img{
+    width: 30px;
+}
 
 /*search button*/
 .search {
@@ -86,4 +89,27 @@ h6 {
     -webkit-box-shadow: 0px 5px 24px 1px rgba(0,0,0,0.71);
     -moz-box-shadow: 0px 5px 24px 1px rgba(0,0,0,0.71); 
     transform: 0.5s;
+}
+.location {
+    background: url("/my_portfolio/myPorfolio/locatiioons.JPG");
+    background-size: cover;
+    height: 35vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+footer .brand {
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+footer a {
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: var(--pink)!important;
+}
+
+#footers {
+    background-color: lightgray;
+    display: block;
+   
 }

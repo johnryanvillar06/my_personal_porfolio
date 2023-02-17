@@ -8,7 +8,7 @@
     
 }
 body {
-    background: url("/my_portfolio/myPorfolio/homepage11111111.JPG")no-repeat fixed center;
+    background: url("/my_portfolio/myPorfolio/homepage11111111.JPG") fixed center;
     background-size: cover;
     height: 100vh;
     background-position: 50% 50%;
@@ -32,7 +32,7 @@ body {
     color: lightyellow;
 }
 #navii {
-    color: white;
+    color:#fff;
 }
 .nav-link:hover {
     color:grey;
@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-brand img{
-    width: 30px;
+    width: 40px;
 }
 .search {
     height: 40px;
@@ -53,10 +53,10 @@ body {
 }
 .btn0 {
     height: 40px;
-    width: 100px;
+    width: 200px;
     outline: none;
     border: none;
-    background: black;
+    background: lightskyblue;
     color: white;
     border-radius: 60px;
     font-weight: 700;

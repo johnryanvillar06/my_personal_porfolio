@@ -35,7 +35,7 @@ body {
     color:#fff;
 }
 .nav-link:hover {
-    color:grey;
+    color:red;
 
 }
 
@@ -64,7 +64,7 @@ body {
 
 .main h1 {
     font-size: 4rem;
-    font-weight: 700;
+    
     color: white;
 }
 .navbar-dark .navbar-toggler-icon {

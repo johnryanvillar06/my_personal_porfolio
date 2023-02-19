@@ -29,6 +29,3 @@ function myFunction() {
 }
 
 
-function hrefFunction(){
-  windows.location.href = "C:\Users\John Ryan\Desktop\my_personal_porfolio\my_portfolio\Clothes Website\searchbar.html";
-}

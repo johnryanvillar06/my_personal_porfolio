@@ -144,7 +144,9 @@ section {
     border-radius: 100px;
     font-size: 24px;
 }
-
+.team-member.even {
+    background-color: #071745ca;
+}
 .team-member {
     background-color:#11245A;
 }

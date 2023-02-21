@@ -201,3 +201,56 @@ section {
     transform: translateY(-60px);
 }
 
+.review .stars{
+    color: #E93B81;
+}
+.review p {
+    max-width: 700px;
+    margin: 24px auto;
+    font-style: italic;
+}
+#testimonials img{
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+    transition: all 0.4s ease;
+
+}
+#testimonials .nav-pills .nav-link.active {
+    background-color: transparent;
+}
+#testimonials .nav-pills .nav-link.active img{
+    transform: scale(1.3);
+}
+#clients  img {
+    height: 50px;
+   
+}
+.logoss img {
+    height: 500px;
+    width: 500px;
+}
+form .form-control {
+    border-radius: 0;
+}
+form .form-control:focus {
+    box-shadow: none;
+    border: #E93B81;
+}
+#contact .btn {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 15px;
+
+   
+}
+#contact .btn:hover {
+    background-color: #ce2f6e;
+    color: #fff;
+}
+#contact .btn {
+    background-color: #E93B81;
+    color: #fff;
+}

@@ -254,3 +254,43 @@ form .form-control:focus {
     background-color: #E93B81;
     color: #fff;
 }
+#cta {
+    background-color: gray;
+    
+}
+#cta .btn {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 15px;  
+}
+
+.footer-top {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .footer-links a {
+    display: block;
+    font-weight: 400px;
+}
+footer .footer-links a, footer .social-icons a {
+    color: #899fa1;
+}
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+    color: #E93B81;
+    
+}
+footer .social-icons a {
+    font-size: 24px;
+}
+
+

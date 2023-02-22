@@ -16,8 +16,6 @@
 
 .card img {
     height: 25vh;
-    width: 100%;
-    background-repeat: no-repeat;
     opacity: 0.5;
     
 }
@@ -30,5 +28,18 @@
 .card {
     overflow: hidden;
     position: relative;
+    
+}
+.card img, .card-img-overlay {
+    transition: all 0.4s ease;
 }
 
+.card:hover img {
+    transform: scale(1.1);
+    
+}
+.card img, 
+.card-img-overlay {
+  /* existing styles */
+  box-shadow: 0px 4px 8px rgba(157, 238, 6, 0.1);
+}

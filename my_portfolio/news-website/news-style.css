@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@400;500;700&display=swap');
+
+
+.navbar {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+}
+
+.btn1 {
+    border-radius: 30px;
+    width: 50% ;
+}
+.hline {
+    border-bottom: 2px solid rgba(75, 3, 3, 0.1);
+}
+
+.card img {
+    height: 25vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    
+}
+.card-img-overlay {
+    color: white;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif
+ 
+}
+.card {
+    overflow: hidden;
+    position: relative;
+}
+

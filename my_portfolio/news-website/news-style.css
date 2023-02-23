@@ -16,16 +16,29 @@
 }
 .manilas hr {
     background-color: black;
-    border-bottom: 4px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 1px 10px #888888;
-    top: -6.2em;
-    padding: 0.5px ;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 11px #888888;
+
+   
+   
 }
+.nav-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h2,h3,h4,h5,h6 a p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 
 .card img {
     height: 25vh;
     opacity: 0.5;
-    
+ 
+}
+
+#second-col .card-img { 
+    height: 52vh;
 }
 .card-img-overlay {
     color: white;
@@ -46,8 +59,33 @@
     transform: scale(1.1);
     
 }
+
+.card-text #texxt{
+    text-align: center;
+    padding-bottom: 1000%;
+}
+
+@media (min-width: 499px) {
+    .order-lg-1 {
+      order: 1;
+    }
+  }
+  
  /*.latest {
     display:flex;
     float: left;
     
 }*/
+
+
+/* Trending hr
+.span{
+    
+    display: inline-block; 
+    position: relative;
+    top: -1.8em;
+    background-color: #fff;
+    padding: 0 10px ;  
+    margin-bottom: -10%; 
+}
+*/

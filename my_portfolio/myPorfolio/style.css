@@ -146,3 +146,36 @@ body{
     width: 100%;
     border-radius: 30px;
   }
+
+  /* dlPDF HTML CSS*/
+  .pdf {
+    background: linear-gradient(rgba(17, 36, 90, 0.8),
+    rgba(17, 36, 90, 0.535)),url(/my_portfolio/myPorfolio/homepage11111111.JPG); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Kaisei Tokumin', serif;
+  }
+  .pdf img {
+    padding: 20px;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+   .pdf .btn {
+    position: relative;
+    display: inline;
+    bottom: 430px;
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .pdf .btn:hover {
+    background-color: RoyalBlue;
+  }
